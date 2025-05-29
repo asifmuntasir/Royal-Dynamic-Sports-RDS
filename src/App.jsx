@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar"
+import UnderConstruction from "./components/UnderConstruction"
 
 
 function App() {
@@ -6,8 +7,9 @@ function App() {
 
   return (
     <>
-      <div className='max-w-screen-xl w-full'>
-        <Navbar></Navbar>
+      <div className='w-full'>
+        {/* <Navbar></Navbar> */}
+        <UnderConstruction></UnderConstruction>
       </div>
     </>
   )
