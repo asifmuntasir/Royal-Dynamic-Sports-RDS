@@ -20,3 +20,33 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.bg-image{
+  background-image: url('../src/assets/banner.png');
+  width: 100%;
+  height: 100%;
+}
+
+.top-title{
+  font-weight: 700;
+  font-size: 50px;
+  color: #ffaf40;
+  cursor: pointer;
+}
+
+.top-btn{
+  border: none;
+  border-radius: 5px;
+  color: #3B3B98;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 15px 15px;
+  background-color: #ffaf40;
+  cursor: pointer;
+}
+
+.top-btn:hover{
+  background-color: #3B3B98;
+  color: #ffaf40;
+  cursor: pointer;
+}
+
